@@ -1,0 +1,66 @@
+body
+{
+	background: linear-gradient(darkblue 0%, rgb(0, 110, 255) 50%, rgb(61, 250, 61) 85%);
+	height: 600px;
+}
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		background: linear-gradient(rgb(48, 1, 255) 0%, rgb(255, 174, 0) 100%);
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+
+#word_display
+{
+	letter-spacing: 5px;
+}
+
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+h1 
+{
+	background: linear-gradient( rgb(0, 110, 255) 0%, rgb(61, 250, 61) 85%);	
+	width:400px;
+}
+
+button
+{
+	cursor: pointer;
+}
+
+button:hover {
+	transform: scale(0.9)
+}
+
+h1:hover {
+	transform: scale(1.3)
+}
+
+.login_div1:hover {
+	background: linear-gradient( rgb(61, 250, 61) 0%, rgb(0, 110, 255) 85%);	
+}
+
+.login_div2:hover {
+	background: linear-gradient( rgb(61, 250, 61) 0%, rgb(0, 110, 255) 85%);
+}
