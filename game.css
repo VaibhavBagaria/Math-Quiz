@@ -13,12 +13,12 @@ body
 	}
 
 
-#player1_name , #player2_name
+#Player1,#Player2
 {
 	display: inline-block;
 	margin-left: 20px;
 }
-#word
+#number1,#number2
 {
 	width: 60%;
 }
@@ -28,14 +28,14 @@ body
 	letter-spacing: 5px;
 }
 
-#output
+#Output
 {
 background: white;
 border-radius: 10px;
 border-top: 10px solid #AA4465;
 padding: 10px;
 float: none;
-text-align: left;
+text-align: center;
 }
 
 h1 
