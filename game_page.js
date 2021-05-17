@@ -23,7 +23,7 @@ function Send_Numbers() {
     check_button = "<br><br><button class='btn btn-info' onclick='Check()'>Check</button>";
     row = quetion_number + inputbox + check_button;
     console.log(row);
-    document.getElementById("Ouput").innerHTML = row;
+    document.getElementById("Output").innerHTML = row;
     document.getElementById("number1").value = "";
     document.getElementById("number2").value = "";
 }
